@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A memory matching game with multiple levels and different icons.">
+    <link rel="stylesheet" href="style.css">
+    <title>Memory Matching Game</title>
+</head>
+<body>
+    <h1>Memory Matching Game</h1>
+    <div class="level-info">Level: <span id="level">1</span></div>
+    <div class="game-container" id="game-container"></div>
+    <button id="next-level-button" class="next-level-button">Next Level</button>
+    <div class="notification" id="notification">Level Complete!</div>
+    <audio id="background-sound" loop>
+        <source src="MY App Music.mp3" type="audio/mp3">
+    </audio>
+    <audio id="card-sound">
+        <source src="Click or flip card sound_45.mp3" type="audio/mp3">
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
